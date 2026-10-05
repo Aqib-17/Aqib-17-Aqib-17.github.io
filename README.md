@@ -10,13 +10,15 @@ About and research interests, education, experience, projects, publications, ski
 
 ## Tech
 
-Plain HTML, CSS and JavaScript in a single `index.html`. No build step. Light and dark themes, responsive layout, keyboard-accessible navigation.
+Plain HTML, CSS and JavaScript (`index.html`, `style.css`, `script.js`). No build step. Light and dark themes, responsive layout, keyboard-accessible navigation.
 
 ## Repository structure
 
 ```
 Aqib-17.github.io/
 ├── index.html
+├── style.css
+├── script.js
 ├── README.md
 └── assets/
     ├── profile.jpg

@@ -5,90 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>K M Ahbab Zaman Aqib | Plant Stress Physiology &amp; Bioinformatics</title>
 <meta name="description" content="Undergraduate researcher at Sylhet Agricultural University studying salinity stress tolerance in rice, with plant bioinformatics and molecular docking.">
+<meta name="theme-color" content="#0f5a3c">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#f2f7f4;--panel:#ffffff;--ink:#12261f;--mute:#4d635a;--line:#d3e0d9;--green:#1f6b4a;--teal:#0e7c86;--gold:#b8901f;--r:10px}
-:root[data-theme="dark"]{--bg:#0c1915;--panel:#13251f;--ink:#e6f1ec;--mute:#9bb3a9;--line:#24403a;--green:#5fc595;--teal:#4fc3cf;--gold:#e0b84a}
-*{box-sizing:border-box;margin:0}
-html{scroll-behavior:smooth;scroll-padding-top:70px}
-body{font-family:"Source Sans 3",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;font-size:17px}
-h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.2}
-a{color:var(--teal)}a:hover{color:var(--green)}
-:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
-.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
-header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
-nav{display:flex;align-items:center;justify-content:space-between;height:60px}
-.brand{font-family:Fraunces,serif;font-weight:700;text-decoration:none;color:var(--ink)}
-nav ul{display:flex;gap:20px;list-style:none;padding:0;align-items:center}
-nav ul a{text-decoration:none;color:var(--mute);font-size:15px}
-nav ul a:hover{color:var(--green)}
-button{font:inherit;cursor:pointer}
-.icon-btn{background:none;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:5px 10px}
-#menu{display:none}
-section{padding:68px 0 10px}
-h2{font-size:1.9rem;margin-bottom:8px}
-.lead{color:var(--mute);margin-bottom:26px;max-width:62ch}
-.hero{padding-top:64px}
-.hero-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:44px;align-items:center}
-.hero h1{font-size:clamp(2.3rem,5.5vw,3.7rem);letter-spacing:-.01em}
-.role{color:var(--green);font-weight:600;margin:12px 0 14px;font-size:1.1rem}
-.hero p{max-width:56ch;color:var(--mute)}
-.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
-.btn{display:inline-block;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;border:2px solid var(--green);color:var(--green)}
-.btn.solid{background:var(--green);color:var(--bg)}
-.btn:hover{background:var(--teal);border-color:var(--teal);color:var(--bg)}
-.portrait{aspect-ratio:1;border-radius:var(--r);border:1px solid var(--line);background:var(--panel);display:grid;place-items:center;overflow:hidden;font-family:Fraunces,serif;font-size:4.5rem;color:var(--green)}
-.portrait img{width:100%;height:100%;object-fit:cover}
-.gradient-band{height:10px;border-radius:5px;margin:46px 0 0;background:linear-gradient(90deg,var(--green),var(--teal) 55%,var(--gold))}
-.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:18px}
-.facts div{padding:6px 18px;border-left:3px solid var(--line)}
-.facts b{display:block;font-family:Fraunces,serif;font-size:1.5rem}
-.facts span{color:var(--mute);font-size:15px}
-.timeline{border-left:3px solid var(--line);padding-left:22px}
-.tl{position:relative;margin-bottom:26px}
-.tl::before{content:"";position:absolute;left:-30px;top:8px;width:11px;height:11px;border-radius:50%;background:var(--green)}
-.tl .when{color:var(--mute);font-size:15px}
-.tl h3{font-size:1.15rem}
-.tl ul,.proj ul{padding-left:20px;margin-top:8px;color:var(--mute)}
-.tl li,.proj li{margin-bottom:4px}
-.proj{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:26px;margin-bottom:18px}
-.tag{display:inline-block;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:2px 12px;margin:4px 6px 0 0;font-size:14.5px}
-.interests{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 34px}
-.interests div{padding-left:14px;border-left:3px solid var(--teal)}
-.interests b{display:block}
-.interests span{color:var(--mute);font-size:15.5px}
-.pub{border-left:4px solid var(--gold);padding:4px 0 4px 18px;margin-bottom:20px}
-.pub small{color:var(--mute)}
-.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
-.skills h3{font-size:1.05rem;margin-bottom:6px}
-.two{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
-.two ul{padding-left:20px;color:var(--mute)}
-.two li{margin-bottom:8px}
-.refs{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.contact-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:10px 30px}
-.contact-list b{display:block;color:var(--mute);font-weight:600;font-size:14.5px}
-footer{margin-top:70px;border-top:1px solid var(--line);padding:26px 0;color:var(--mute);font-size:15px}
-@media(max-width:780px){
- #menu{display:block}
- nav ul{display:none;position:absolute;top:60px;left:0;right:0;background:var(--bg);flex-direction:column;padding:16px 22px;border-bottom:1px solid var(--line);align-items:flex-start}
- nav ul.open{display:flex}
- .hero-grid,.skills,.two,.refs,.interests,.contact-list{grid-template-columns:1fr}
- .facts{grid-template-columns:1fr;gap:10px}
- .portrait{max-width:240px}
-}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="loader" aria-hidden="true"><div class="spin"><i class="fa-solid fa-seedling"></i></div></div>
+
 <header>
  <div class="wrap">
-  <nav aria-label="Main">
+  <nav class="glass" aria-label="Main">
    <a class="brand" href="#home">K M Ahbab Zaman Aqib</a>
-   <button id="menu" class="icon-btn" aria-label="Open menu" aria-expanded="false">Menu</button>
    <ul id="links">
-    <li><a href="#about">About</a></li>
+    <li><a href="#about">Research</a></li>
     <li><a href="#education">Education</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Projects</a></li>
@@ -96,173 +28,189 @@ footer{margin-top:70px;border-top:1px solid var(--line);padding:26px 0;color:var
     <li><a href="#skills">Skills</a></li>
     <li><a href="#leadership">Leadership</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><button id="theme" class="icon-btn" aria-label="Switch light or dark theme">Theme</button></li>
+    <li><button id="theme" class="ib" aria-label="Switch light or dark theme"><i class="fa-solid fa-circle-half-stroke"></i></button></li>
    </ul>
+   <button id="menu" class="ib" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
   </nav>
  </div>
 </header>
 
-<main class="wrap">
+<aside class="side glass" aria-label="Social links">
+ <a href="https://github.com/Aqib-17" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+ <a href="https://www.linkedin.com/in/k-m-ahbab-zaman-aqib-b4663538b" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+ <a href="https://www.researchgate.net/profile/Km-Aqib" aria-label="ResearchGate" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+ <a href="https://orcid.org/0009-0008-4057-3934" aria-label="ORCID" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+ <a href="mailto:ahbabzaman.ag@student.sau.ac.bd" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+</aside>
+
+<main>
 <section id="home" class="hero">
- <div class="hero-grid">
-  <div>
+ <div class="wrap hero-grid">
+  <div class="rv">
    <h1>K M Ahbab Zaman Aqib</h1>
    <p class="role">B.Sc. in Agriculture, Sylhet Agricultural University</p>
-   <p>I study how rice copes with salt. My work measures proline, MDA and antioxidant enzymes in salt-tolerant and salt-sensitive genotypes, and uses plant bioinformatics and molecular docking to look at the genes and proteins behind stress responses.</p>
+   <p class="sum">I study how rice copes with salt. My work measures proline, MDA and antioxidant enzymes in salt-tolerant and salt-sensitive genotypes, and uses plant bioinformatics and molecular docking to look at the genes and proteins behind stress responses.</p>
+   <div class="chips">
+    <span class="chip"><i class="fa-solid fa-wheat-awn"></i>Rice salinity stress</span>
+    <span class="chip"><i class="fa-solid fa-dna"></i>Plant bioinformatics</span>
+    <span class="chip"><i class="fa-solid fa-cube"></i>Molecular docking</span>
+   </div>
    <div class="btns">
-    <a class="btn solid" href="#contact">Contact me</a>
-    <a class="btn" href="assets/AQIB_ATS_CV.pdf">Download CV</a>
-    <a class="btn" href="https://github.com/Aqib-17">GitHub</a>
+    <a class="btn solid" href="#contact"><i class="fa-solid fa-paper-plane"></i>Contact me</a>
+    <a class="btn" href="assets/AQIB_ATS_CV.pdf"><i class="fa-solid fa-file-arrow-down"></i>Download CV</a>
+    <a class="btn" href="https://github.com/Aqib-17"><i class="fa-brands fa-github"></i>GitHub</a>
    </div>
   </div>
-  <div class="portrait" aria-label="Profile photo"><img src="assets/profile.jpg" alt="Portrait of K M Ahbab Zaman Aqib"onerror="this.parentNode.textContent='KA'"></div>
- </div>
- <div class="gradient-band" aria-hidden="true"></div>
- <div class="facts">
-  <div><b>3.38</b><span>B.Sc. CGPA (ongoing)</span></div>
-  <div><b>2</b><span>Manuscripts in preparation</span></div>
-  <div><b>President</b><span>Kulaura Students Association, Sylhet</span></div>
- </div>
-</section>
-
-<section id="about">
- <h2>Research interests</h2>
- <p class="lead">My focus is making crops more resilient to climate stress, from the field and greenhouse to the genome.</p>
- <div class="interests">
-  <div><b>Abiotic stress tolerance in crops</b><span>Salinity, drought and heat stress mechanisms in rice and other cereals.</span></div>
-  <div><b>Plant molecular biology and functional genomics</b><span>Gene expression, QTL mapping and marker-assisted selection.</span></div>
-  <div><b>Plant bioinformatics and computational biology</b><span>GWAS, omics data integration and comparative genomics.</span></div>
-  <div><b>Climate-resilient agriculture and food security</b><span>Stress-tolerant varieties for tropical and subtropical environments.</span></div>
-  <div><b>Agronomy and crop physiology</b><span>Crop growth, yield formation and nutrient use efficiency.</span></div>
-  <div><b>Sustainable agriculture and soil health</b><span>Precision agriculture, soil microbiome interactions and eco-friendly crop management.</span></div>
+  <figure class="photo-card glass rv">
+   <div class="ring"><img src="assets/profile.jpg" alt="Portrait of K M Ahbab Zaman Aqib" width="900" height="900"></div>
+   <span class="float glass a"><i class="fa-solid fa-graduation-cap"></i>CGPA 3.38</span>
+   <span class="float glass b"><i class="fa-solid fa-flask"></i>Agronomy research</span>
+   <figcaption><b>K M Ahbab Zaman Aqib</b>Sylhet Agricultural University, Bangladesh</figcaption>
+  </figure>
  </div>
 </section>
 
-<section id="education">
- <h2>Education</h2>
+<section class="m-sec" aria-label="Research metrics">
+ <div class="wrap metrics">
+  <div class="card glass metric rv"><i class="fa-solid fa-graduation-cap"></i><b data-count="3.38" data-dec="2">3.38</b><span>B.Sc. CGPA (ongoing)</span></div>
+  <div class="card glass metric rv"><i class="fa-solid fa-microscope"></i><b data-count="2">2</b><span>Research projects</span></div>
+  <div class="card glass metric rv"><i class="fa-solid fa-file-lines"></i><b data-count="2">2</b><span>Manuscripts in preparation</span></div>
+  <div class="card glass metric rv"><i class="fa-solid fa-users"></i><b data-count="2">2</b><span>Leadership roles</span></div>
+ </div>
+</section>
+
+<section id="about"><div class="wrap">
+ <div class="sh rv"><span class="ic glass"><i class="fa-solid fa-lightbulb"></i></span><h2>Research interests</h2></div>
+ <p class="lead rv">My focus is making crops more resilient to climate stress, from the field and greenhouse to the genome.</p>
+ <div class="grid3">
+  <div class="card glass rv"><i class="big fa-solid fa-droplet"></i><h3>Abiotic stress tolerance in crops</h3><p>Salinity, drought and heat stress mechanisms in rice and other cereals.</p></div>
+  <div class="card glass rv"><i class="big fa-solid fa-dna"></i><h3>Plant molecular biology and functional genomics</h3><p>Gene expression, QTL mapping and marker-assisted selection.</p></div>
+  <div class="card glass rv"><i class="big fa-solid fa-code-branch"></i><h3>Plant bioinformatics and computational biology</h3><p>GWAS, omics data integration and comparative genomics.</p></div>
+  <div class="card glass rv"><i class="big fa-solid fa-earth-asia"></i><h3>Climate-resilient agriculture and food security</h3><p>Stress-tolerant varieties for tropical and subtropical environments.</p></div>
+  <div class="card glass rv"><i class="big fa-solid fa-seedling"></i><h3>Agronomy and crop physiology</h3><p>Crop growth, yield formation and nutrient use efficiency.</p></div>
+  <div class="card glass rv"><i class="big fa-solid fa-mountain-sun"></i><h3>Sustainable agriculture and soil health</h3><p>Precision agriculture, soil microbiome interactions and eco-friendly crop management.</p></div>
+ </div>
+</div></section>
+
+<section id="education"><div class="wrap">
+ <div class="sh rv"><span class="ic glass"><i class="fa-solid fa-graduation-cap"></i></span><h2>Education</h2></div>
  <div class="timeline">
-  <div class="tl"><span class="when">June 2022 to present</span><h3>B.Sc. in Agriculture</h3><p>Sylhet Agricultural University, Sylhet-3100, Bangladesh. CGPA 3.38</p></div>
-  <div class="tl"><span class="when">March 2020 to June 2022</span><h3>Higher Secondary Certificate</h3><p>Dhaka Residential Model College, Dhaka-1207, Bangladesh. GPA 5.00</p></div>
-  <div class="tl"><span class="when">January 2018 to March 2020</span><h3>Secondary School Certificate</h3><p>Nabin Chandra Model High School, Kulaura-3230, Bangladesh. GPA 5.00</p></div>
+  <div class="tl rv"><span class="dot glass"><i class="fa-solid fa-building-columns"></i></span><div class="card glass"><span class="when">June 2022 to present</span><h3>B.Sc. in Agriculture</h3><p>Sylhet Agricultural University, Sylhet-3100, Bangladesh. CGPA 3.38</p></div></div>
+  <div class="tl rv"><span class="dot glass"><i class="fa-solid fa-school"></i></span><div class="card glass"><span class="when">March 2020 to June 2022</span><h3>Higher Secondary Certificate</h3><p>Dhaka Residential Model College, Dhaka-1207, Bangladesh. GPA 5.00</p></div></div>
+  <div class="tl rv"><span class="dot glass"><i class="fa-solid fa-book-open"></i></span><div class="card glass"><span class="when">January 2018 to March 2020</span><h3>Secondary School Certificate</h3><p>Nabin Chandra Model High School, Kulaura-3230, Bangladesh. GPA 5.00</p></div></div>
  </div>
-</section>
+</div></section>
 
-<section id="experience">
- <h2>Experience</h2>
+<section id="experience"><div class="wrap">
+ <div class="sh rv"><span class="ic glass"><i class="fa-solid fa-briefcase"></i></span><h2>Experience</h2></div>
  <div class="timeline">
-  <div class="tl"><span class="when">2024 to present</span><h3>Undergraduate researcher (self-directed)</h3>
-   <p>Department of Agronomy, Sylhet Agricultural University. Advisor: Professor Dr. Md. Mozammel Haque.</p>
+  <div class="tl rv"><span class="dot glass"><i class="fa-solid fa-flask-vial"></i></span><div class="card glass"><span class="when">2024 to present</span><h3>Undergraduate researcher (self-directed)</h3><p class="sub">Department of Agronomy, Sylhet Agricultural University. Advisor: Professor Dr. Md. Mozammel Haque.</p>
    <ul>
     <li>Characterizing contrasting rice varieties under salinity stress, physiologically and biochemically.</li>
     <li>Measuring proline accumulation, MDA levels and antioxidant enzyme activities (SOD, POD, CAT).</li>
     <li>Analyzing experimental data in R with ANOVA and descriptive statistics.</li>
     <li>Reviewing literature on abiotic stress tolerance in rice for climate-resilient crop development.</li>
-   </ul></div>
-  <div class="tl"><span class="when">2024 to present</span><h3>Biology instructor</h3>
-   <p>Phoenix Coaching Centre, Kulaura, Sylhet, Bangladesh.</p>
+   </ul></div></div>
+  <div class="tl rv"><span class="dot glass"><i class="fa-solid fa-chalkboard-user"></i></span><div class="card glass"><span class="when">2024 to present</span><h3>Biology instructor</h3><p class="sub">Phoenix Coaching Centre, Kulaura, Sylhet, Bangladesh.</p>
    <ul>
     <li>Teaching SSC and HSC Biology: cell biology, genetics, plant physiology and ecology.</li>
     <li>Preparing lesson plans, study materials and model test papers aligned with the national curriculum.</li>
     <li>Mentoring students on exam preparation strategies.</li>
-   </ul></div>
+   </ul></div></div>
  </div>
-</section>
+</div></section>
 
-<section id="projects">
- <h2>Projects</h2>
- <div class="proj">
-  <h3>Physiological and biochemical characterization of contrasting rice varieties under salinity stress</h3>
-  <p class="lead" style="margin:6px 0 0">Ongoing research project, Department of Agronomy, Sylhet Agricultural University. Crop stress tolerance and improvement.</p>
-  <ul>
-   <li>Comparing salt-tolerant and salt-sensitive rice genotypes at the seedling stage.</li>
-   <li>Physiological parameters: shoot and root length, fresh and dry weight, relative water content (RWC) and SPAD chlorophyll index.</li>
-   <li>Biochemical markers: proline content, lipid peroxidation (MDA) and antioxidant enzyme activity.</li>
-   <li>Variety-level differences tested with ANOVA and post-hoc tests in R.</li>
-   <li>Aim: identify stress-tolerance biomarkers for future breeding programs.</li>
-  </ul>
-  <div class="btns"><a class="btn" href="https://github.com/Aqib-17">View on GitHub</a></div>
+<section id="projects"><div class="wrap">
+ <div class="sh rv"><span class="ic glass"><i class="fa-solid fa-diagram-project"></i></span><h2>Projects</h2></div>
+ <div class="grid2">
+  <article class="card glass rv">
+   <i class="big fa-solid fa-wheat-awn"></i>
+   <h3>Physiological and biochemical characterization of contrasting rice varieties under salinity stress</h3>
+   <p>Ongoing research project, Department of Agronomy, Sylhet Agricultural University. Crop stress tolerance and improvement.</p>
+   <div class="tags"><span class="tag">Seedling stage</span><span class="tag">RWC</span><span class="tag">SPAD</span><span class="tag">Proline</span><span class="tag">MDA</span><span class="tag">SOD, POD, CAT</span><span class="tag">ANOVA in R</span></div>
+   <ul style="padding-left:20px;margin-bottom:16px">
+    <li>Comparing salt-tolerant and salt-sensitive rice genotypes at the seedling stage.</li>
+    <li>Measuring shoot and root length, fresh and dry weight, RWC and SPAD chlorophyll index.</li>
+    <li>Aim: identify stress-tolerance biomarkers for future breeding programs.</li>
+   </ul>
+   <a class="link" href="https://github.com/Aqib-17"><i class="fa-brands fa-github"></i>View on GitHub</a>
+  </article>
+  <article class="card glass rv">
+   <i class="big fa-solid fa-dna"></i>
+   <h3>Rad5/16-like gene family in <em>Arabidopsis thaliana</em></h3>
+   <p>Genome-wide identification and characterization, with developmental, hormonal and stress-responsive expression. Manuscript in preparation.</p>
+   <div class="tags"><span class="tag">Genome-wide analysis</span><span class="tag">Gene family</span><span class="tag">Expression</span></div>
+   <a class="link" href="https://github.com/Aqib-17"><i class="fa-brands fa-github"></i>View on GitHub</a>
+  </article>
  </div>
- <div class="proj">
-  <h3>Rad5/16-like gene family in Arabidopsis thaliana</h3>
-  <p class="lead" style="margin:6px 0 0">Genome-wide identification and characterization, with developmental, hormonal and stress-responsive expression. Manuscript in preparation.</p>
-  <div class="btns"><a class="btn" href="https://github.com/Aqib-17">View on GitHub</a></div>
+</div></section>
+
+<section id="publications"><div class="wrap">
+ <div class="sh rv"><span class="ic glass"><i class="fa-solid fa-book"></i></span><h2>Publications</h2></div>
+ <p class="lead rv">No peer-reviewed publications yet. Two manuscripts are in preparation.</p>
+ <div class="grid2" style="grid-template-columns:1fr">
+  <article class="card glass pub rv"><span class="kind">Manuscript</span>
+   <h3>Physiological and biochemical responses of contrasting rice varieties under NaCl-induced salinity stress</h3>
+   <dl><div><dt>Status</dt><dd>In preparation</dd></div><div><dt>Field</dt><dd>Plant stress physiology</dd></div></dl></article>
+  <article class="card glass pub rv"><span class="kind">Manuscript</span>
+   <h3>Genome-wide identification and characterization of the Rad5/16-like group gene family in <em>Arabidopsis thaliana</em> with their developmental, hormonal, and stress-responsive expression</h3>
+   <dl><div><dt>Status</dt><dd>In preparation</dd></div><div><dt>Field</dt><dd>Plant bioinformatics</dd></div></dl></article>
  </div>
-</section>
+</div></section>
 
-<section id="publications">
- <h2>Publications</h2>
- <p class="lead">No peer-reviewed publications yet. Two manuscripts are in preparation.</p>
- <div class="pub"><h3>Physiological and biochemical responses of contrasting rice varieties under NaCl-induced salinity stress</h3><small>Manuscript in preparation</small></div>
- <div class="pub"><h3>Genome-wide identification and characterization of the Rad5/16-like group gene family in Arabidopsis thaliana with their developmental, hormonal, and stress-responsive expression</h3><small>Manuscript in preparation</small></div>
-</section>
-
-<section id="skills">
- <h2>Skills and tools</h2>
- <div class="skills" style="margin-top:20px">
-  <div><h3>Programming and data analysis</h3>
-   <span class="tag">R</span><span class="tag">ggplot2</span><span class="tag">dplyr</span><span class="tag">tidyr</span><span class="tag">ANOVA</span><span class="tag">Regression</span><span class="tag">Correlation</span><span class="tag">PCA</span><span class="tag">Descriptive statistics</span><span class="tag">Excel</span></div>
-  <div><h3>Bioinformatics</h3>
-   <span class="tag">NCBI GenBank and BLAST</span><span class="tag">MEGA</span><span class="tag">Primer3</span><span class="tag">SnapGene</span><span class="tag">UniProt</span><span class="tag">Ensembl Plants</span><span class="tag">KEGG</span><span class="tag">Gene Ontology</span><span class="tag">MEME Suite</span><span class="tag">AlphaFold</span><span class="tag">SWISS-MODEL</span><span class="tag">PyMOL</span><span class="tag">AutoDock Vina</span><span class="tag">PyRx</span><span class="tag">CB-Dock2</span><span class="tag">PlantCARE</span></div>
-  <div><h3>Laboratory and field</h3>
-   <span class="tag">Chlorophyll content</span><span class="tag">RWC</span><span class="tag">Electrolyte leakage</span><span class="tag">Proline</span><span class="tag">MDA</span><span class="tag">SOD, POD, CAT assays</span><span class="tag">Salinity experiment design</span><span class="tag">Greenhouse management</span><span class="tag">CTAB DNA extraction</span><span class="tag">Germination bio-assay</span><span class="tag">Plant phenotyping</span></div>
+<section id="skills"><div class="wrap">
+ <div class="sh rv"><span class="ic glass"><i class="fa-solid fa-screwdriver-wrench"></i></span><h2>Skills and tools</h2></div>
+ <div class="skills rv">
+  <div class="card glass"><h3><i class="fa-solid fa-chart-column" style="color:var(--g2)"></i> Programming and data analysis</h3><div class="badges">
+   <span class="badge"><i class="fa-solid fa-chart-line"></i>R</span><span class="badge"><i class="fa-solid fa-chart-line"></i>ggplot2</span><span class="badge"><i class="fa-solid fa-chart-line"></i>dplyr</span><span class="badge"><i class="fa-solid fa-chart-line"></i>tidyr</span><span class="badge"><i class="fa-solid fa-chart-line"></i>ANOVA</span><span class="badge"><i class="fa-solid fa-chart-line"></i>Regression</span><span class="badge"><i class="fa-solid fa-chart-line"></i>Correlation</span><span class="badge"><i class="fa-solid fa-chart-line"></i>PCA</span><span class="badge"><i class="fa-solid fa-chart-line"></i>Descriptive statistics</span><span class="badge"><i class="fa-solid fa-table"></i>Excel</span></div></div>
+  <div class="card glass"><h3><i class="fa-solid fa-dna" style="color:var(--g2)"></i> Bioinformatics</h3><div class="badges">
+   <span class="badge"><i class="fa-solid fa-dna"></i>NCBI GenBank and BLAST</span><span class="badge"><i class="fa-solid fa-dna"></i>MEGA</span><span class="badge"><i class="fa-solid fa-dna"></i>Primer3</span><span class="badge"><i class="fa-solid fa-dna"></i>SnapGene</span><span class="badge"><i class="fa-solid fa-dna"></i>UniProt</span><span class="badge"><i class="fa-solid fa-dna"></i>Ensembl Plants</span><span class="badge"><i class="fa-solid fa-dna"></i>KEGG</span><span class="badge"><i class="fa-solid fa-dna"></i>Gene Ontology</span><span class="badge"><i class="fa-solid fa-dna"></i>MEME Suite</span><span class="badge"><i class="fa-solid fa-cube"></i>AlphaFold</span><span class="badge"><i class="fa-solid fa-cube"></i>SWISS-MODEL</span><span class="badge"><i class="fa-solid fa-cube"></i>PyMOL</span><span class="badge"><i class="fa-solid fa-cube"></i>AutoDock Vina</span><span class="badge"><i class="fa-solid fa-cube"></i>PyRx</span><span class="badge"><i class="fa-solid fa-cube"></i>CB-Dock2</span><span class="badge"><i class="fa-solid fa-dna"></i>PlantCARE</span></div></div>
+  <div class="card glass"><h3><i class="fa-solid fa-flask" style="color:var(--g2)"></i> Laboratory and field</h3><div class="badges">
+   <span class="badge"><i class="fa-solid fa-leaf"></i>Chlorophyll content</span><span class="badge"><i class="fa-solid fa-droplet"></i>RWC</span><span class="badge"><i class="fa-solid fa-bolt"></i>Electrolyte leakage</span><span class="badge"><i class="fa-solid fa-flask"></i>Proline</span><span class="badge"><i class="fa-solid fa-flask"></i>MDA</span><span class="badge"><i class="fa-solid fa-flask"></i>SOD, POD, CAT assays</span><span class="badge"><i class="fa-solid fa-vial"></i>Salinity experiment design</span><span class="badge"><i class="fa-solid fa-seedling"></i>Greenhouse management</span><span class="badge"><i class="fa-solid fa-dna"></i>CTAB DNA extraction</span><span class="badge"><i class="fa-solid fa-seedling"></i>Germination bio-assay</span><span class="badge"><i class="fa-solid fa-camera"></i>Plant phenotyping</span></div></div>
  </div>
-</section>
+</div></section>
 
-<section id="leadership">
- <h2>Leadership and certifications</h2>
- <div class="two" style="margin-top:20px">
-  <div><h3>Leadership and activities</h3>
-   <ul>
+<section id="leadership"><div class="wrap">
+ <div class="sh rv"><span class="ic glass"><i class="fa-solid fa-people-group"></i></span><h2>Leadership and certifications</h2></div>
+ <div class="grid2" style="margin-top:24px">
+  <div class="card glass rv"><h3><i class="fa-solid fa-award" style="color:var(--g2)"></i> Leadership and activities</h3>
+   <ul style="padding-left:20px;margin-top:10px">
     <li><b>President</b>, Kulaura Students Association, Sylhet (2026 to present)</li>
     <li><b>Executive committee member</b>, Public University Students Association of Kulaura (2024 to present)</li>
     <li><b>Scout member</b>, Bangladesh Scouts: 10th Bangladesh National Scout Jamboree, 3rd SAANSO Scout Jamboree, and district-level camps</li>
     <li><b>Volunteer</b>, community organizations for youth development, education awareness and community service in Kulaura, Moulvibazar</li>
    </ul></div>
-  <div><h3>Certifications</h3>
-   <ul>
+  <div class="card glass rv"><h3><i class="fa-solid fa-certificate" style="color:var(--g2)"></i> Certifications</h3>
+   <ul style="padding-left:20px;margin-top:10px">
     <li><a href="https://github.com/Aqib-17">From inbox to impact: improve your email workflows with AI</a></li>
     <li><a href="https://github.com/Aqib-17">Make your meetings more productive with AI</a></li>
     <li><a href="https://github.com/Aqib-17">Uncover new data insights with AI</a></li>
     <li><a href="https://github.com/Aqib-17">Unlock productivity and unleash creativity with AI powered chat</a></li>
    </ul></div>
  </div>
-</section>
+</div></section>
 
-<section id="contact">
- <h2>Contact</h2>
- <p class="lead">Open to research collaborations, graduate admission and scholarship opportunities.</p>
- <ul class="contact-list">
-  <li><b>Email</b><a href="mailto:ahbabzaman.ag@student.sau.ac.bd">ahbabzaman.ag@student.sau.ac.bd</a></li>
-  <li><b>Phone</b><a href="tel:+8801301080280">+880 1301 080280</a></li>
-  <li><b>LinkedIn</b><a href="https://www.linkedin.com/in/k-m-ahbab-zaman-aqib-b4663538b">K M Ahbab Zaman Aqib</a></li>
-  <li><b>GitHub</b><a href="https://github.com/Aqib-17">Aqib-17</a></li>
-  <li><b>ResearchGate</b><a href="https://www.researchgate.net/profile/Km-Aqib">Km-Aqib</a></li>
-  <li><b>ORCID</b><a href="https://orcid.org/0009-0008-4057-3934">0009-0008-4057-3934</a></li>
+<section id="contact"><div class="wrap">
+ <div class="sh rv"><span class="ic glass"><i class="fa-solid fa-envelope-open-text"></i></span><h2>Contact</h2></div>
+ <p class="lead rv">Open to research collaborations, graduate admission and scholarship opportunities.</p>
+ <ul class="clist">
+  <li class="card glass rv"><span class="ic"><i class="fa-solid fa-envelope"></i></span><div><small>Email</small><a href="mailto:ahbabzaman.ag@student.sau.ac.bd">ahbabzaman.ag@student.sau.ac.bd</a></div></li>
+  <li class="card glass rv"><span class="ic"><i class="fa-solid fa-phone"></i></span><div><small>Phone</small><a href="tel:+8801301080280">+880 1301 080280</a></div></li>
+  <li class="card glass rv"><span class="ic"><i class="fa-brands fa-linkedin-in"></i></span><div><small>LinkedIn</small><a href="https://www.linkedin.com/in/k-m-ahbab-zaman-aqib-b4663538b">K M Ahbab Zaman Aqib</a></div></li>
+  <li class="card glass rv"><span class="ic"><i class="fa-brands fa-github"></i></span><div><small>GitHub</small><a href="https://github.com/Aqib-17">Aqib-17</a></div></li>
+  <li class="card glass rv"><span class="ic"><i class="fa-brands fa-researchgate"></i></span><div><small>ResearchGate</small><a href="https://www.researchgate.net/profile/Km-Aqib">Km-Aqib</a></div></li>
+  <li class="card glass rv"><span class="ic"><i class="fa-brands fa-orcid"></i></span><div><small>ORCID</small><a href="https://orcid.org/0009-0008-4057-3934">0009-0008-4057-3934</a></div></li>
  </ul>
- <h3 style="margin:34px 0 14px">References</h3>
- <div class="refs">
-  <div class="proj" style="margin:0"><h3>Dr. Md. Mozammel Haque</h3><p>Professor, Department of Agronomy, Sylhet Agricultural University, Sylhet-3100, Bangladesh</p><a href="mailto:hoquem.aha@sau.ac.bd">hoquem.aha@sau.ac.bd</a></div>
-  <div class="proj" style="margin:0"><h3>Dr. Sayeda Sultana</h3><p>Professor, Department of Genetics and Plant Breeding, Sylhet Agricultural University, Sylhet-3100, Bangladesh</p><a href="mailto:sultana.gpb@sau.ac.bd">sultana.gpb@sau.ac.bd</a></div>
+ <h3 class="rv" style="margin:44px 0 16px">References</h3>
+ <div class="grid2">
+  <div class="card glass rv"><h3>Dr. Md. Mozammel Haque</h3><p>Professor, Department of Agronomy, Sylhet Agricultural University, Sylhet-3100, Bangladesh</p><a href="mailto:hoquem.aha@sau.ac.bd">hoquem.aha@sau.ac.bd</a></div>
+  <div class="card glass rv"><h3>Dr. Sayeda Sultana</h3><p>Professor, Department of Genetics and Plant Breeding, Sylhet Agricultural University, Sylhet-3100, Bangladesh</p><a href="mailto:sultana.gpb@sau.ac.bd">sultana.gpb@sau.ac.bd</a></div>
  </div>
-</section>
+</div></section>
 </main>
 
 <footer><div class="wrap">&copy; <span id="yr"></span> K M Ahbab Zaman Aqib. Sylhet Agricultural University, Bangladesh.</div></footer>
-
-<script>
-(function(){
- var root=document.documentElement,key="aqib-theme";
- try{var saved=localStorage.getItem(key);if(saved)root.dataset.theme=saved;
-  else if(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)root.dataset.theme="dark";}catch(e){}
- document.getElementById("theme").addEventListener("click",function(){
-  var next=root.dataset.theme==="dark"?"light":"dark";root.dataset.theme=next;
-  try{localStorage.setItem(key,next);}catch(e){}
- });
- var menu=document.getElementById("menu"),links=document.getElementById("links");
- menu.addEventListener("click",function(){var o=links.classList.toggle("open");menu.setAttribute("aria-expanded",o);});
- links.addEventListener("click",function(e){if(e.target.tagName==="A"){links.classList.remove("open");menu.setAttribute("aria-expanded","false");}});
- document.getElementById("yr").textContent=new Date().getFullYear();
-})();
-</script>
+<button id="top" class="ib glass" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="script.js"></script>
 </body>
 </html>
